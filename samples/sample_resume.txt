@@ -1,0 +1,59 @@
+"""
+Sample Resume
+"""
+
+John Smith
+john.smith@email.com | (555) 123-4567 | LinkedIn: linkedin.com/in/johnsmith
+
+PROFESSIONAL SUMMARY
+Experienced full-stack developer with 5+ years of expertise in Python, JavaScript, and cloud technologies. 
+Strong background in building scalable REST APIs and responsive web applications using modern frameworks. 
+Proven track record of delivering high-quality software solutions on time.
+
+TECHNICAL SKILLS
+Languages: Python, JavaScript, TypeScript, SQL, Bash
+Backend: Django, Flask, FastAPI, Node.js, Express.js
+Frontend: React, Vue.js, HTML5, CSS3, Webpack
+Databases: PostgreSQL, MongoDB, Redis
+Cloud: AWS (EC2, S3, Lambda), Azure basics
+DevOps: Docker, Docker Compose, Git, CI/CD pipelines (GitHub Actions)
+Tools: Linux, VS Code, Postman, Jira
+
+PROFESSIONAL EXPERIENCE
+
+Senior Backend Developer | TechCorp Inc. | Jan 2021 - Present
+• Architected and developed 3 microservices using FastAPI, reducing API response time by 40%
+• Implemented CI/CD pipelines using GitHub Actions, reducing deployment time from 2 hours to 15 minutes
+• Mentored 2 junior developers and led code review processes
+• Optimized database queries using PostgreSQL, improving performance by 35%
+
+Full-Stack Developer | StartupXYZ | Jun 2019 - Dec 2020
+• Built full-stack web application using React and Django serving 50k+ monthly active users
+• Designed and implemented RESTful APIs with proper authentication and authorization
+• Deployed applications to AWS using EC2 and S3
+• Improved frontend performance using code splitting and lazy loading, reducing load time by 50%
+
+Junior Developer | WebStudio | Jan 2019 - May 2019
+• Developed features for e-commerce platform using Vue.js and Express.js
+• Participated in agile development process with 2-week sprints
+• Fixed bugs and wrote unit tests achieving 75% code coverage
+
+EDUCATION
+Bachelor of Science in Computer Science | University of Technology | 2018
+GPA: 3.8/4.0 | Relevant Coursework: Data Structures, Algorithms, Web Development, Database Design
+
+CERTIFICATIONS
+AWS Solutions Architect Associate (2022)
+Docker Certified Associate (2021)
+
+PROJECTS
+Personal Portfolio Website | github.com/johnsmith/portfolio
+• Built responsive portfolio using Next.js and Tailwind CSS
+• Implemented blog functionality with Markdown support
+
+Open Source Contributions
+• Contributed to Django ORM optimization project (50+ merged PRs)
+• Active contributor to FastAPI documentation
+
+LANGUAGES
+English (Native), Spanish (Conversational)

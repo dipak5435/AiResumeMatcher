@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume & JD Matcher</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🤖 Resume & JD Matcher</h1>
+            <p>AI-powered resume-to-job-description fit analysis</p>
+        </header>
+
+        <div class="main-content">
+            <!-- Matcher Form -->
+            <section class="matcher-section">
+                <h2>Analyze Resume Match</h2>
+                
+                <form id="matchForm" class="form-group">
+                    <div class="form-field">
+                        <label for="resume">Resume</label>
+                        <textarea id="resume" name="resume" placeholder="Paste your resume here (text or PDF)..." rows="8" required></textarea>
+                        <small>Or <button type="button" class="btn-link" onclick="document.getElementById('resumeFile').click()">upload PDF</button></small>
+                        <input type="file" id="resumeFile" accept=".pdf,.txt,.md" style="display:none;">
+                    </div>
+
+                    <div class="form-field">
+                        <label for="jd">Job Description</label>
+                        <textarea id="jd" name="jd" placeholder="Paste the job description here..." rows="8" required></textarea>
+                    </div>
+
+                    <div class="form-options">
+                        <label>
+                            <input type="checkbox" id="saveMatch" name="save">
+                            Save to compare later
+                        </label>
+                    </div>
+
+                    <button type="submit" class="btn-primary">Analyze Match</button>
+                </form>
+            </section>
+
+            <!-- Results Section -->
+            <section id="resultsSection" class="results-section" style="display:none;">
+                <h2>Match Results</h2>
+                
+                <div class="score-card">
+                    <div class="score-circle">
+                        <span class="score-value" id="scoreValue">--</span>
+                        <span class="score-label">/100</span>
+                    </div>
+                    <div class="score-info">
+                        <p class="score-rating" id="scoreRating">-</p>
+                    </div>
+                </div>
+
+                <div class="explanation-box">
+                    <h3>Analysis</h3>
+                    <p id="explanation">-</p>
+                </div>
+
+                <div id="recommendationsBox" class="recommendations-box" style="display:none;">
+                    <h3>Recommendations to Improve Match</h3>
+                    <ul id="recommendationsList"></ul>
+                </div>
+
+                <button class="btn-secondary" onclick="resetForm()">Analyze Another</button>
+            </section>
+
+            <!-- Rankings Section -->
+            <section id="rankingsSection" class="rankings-section">
+                <h2>Saved Matches</h2>
+                <button class="btn-secondary" onclick="loadMatches()">📊 Load Rankings</button>
+                
+                <div id="matchesList" style="display:none; margin-top:20px;">
+                    <div id="statsBox" class="stats-box"></div>
+                    <div id="matchesTable"></div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>

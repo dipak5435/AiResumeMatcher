@@ -1,0 +1,65 @@
+"""
+Sample Job Description
+"""
+
+Senior Full-Stack Engineer
+
+Company: InnovateTech Solutions
+Location: San Francisco, CA (Remote)
+Salary: $150,000 - $200,000
+
+ABOUT THE ROLE
+We are seeking a Senior Full-Stack Engineer to join our growing engineering team. You will work on building 
+high-performance, scalable web applications that serve millions of users. This is a leadership role where you'll 
+have opportunities to mentor junior developers, make architectural decisions, and directly impact our product.
+
+KEY RESPONSIBILITIES
+• Design and implement scalable backend services using modern frameworks and cloud technologies
+• Lead frontend development using React or Vue.js, ensuring high code quality and performance
+• Collaborate with product and design teams to translate requirements into technical solutions
+• Participate in architectural discussions and make technology choices
+• Mentor junior developers and conduct code reviews
+• Implement best practices for security, performance, and maintainability
+• Work with DevOps team to improve deployment pipelines and infrastructure
+
+REQUIRED QUALIFICATIONS
+• 5+ years of professional software development experience
+• Strong proficiency in Python or JavaScript/Node.js
+• Experience building and deploying web applications to cloud platforms (AWS, Azure, or GCP)
+• Solid understanding of relational and NoSQL databases
+• Proficiency in version control (Git) and CI/CD concepts
+• Experience with Docker and containerization
+• Strong problem-solving skills and attention to detail
+• Excellent communication and collaboration skills
+
+PREFERRED QUALIFICATIONS
+• Experience with React.js or Vue.js for frontend development
+• AWS Solutions Architect certification or equivalent cloud platform expertise
+• Experience with microservices architecture
+• Familiarity with message queues (RabbitMQ, Kafka)
+• Previous experience mentoring developers
+• Open source contributions
+• Machine Learning or AI application experience
+
+TECHNICAL STACK
+• Backend: Python (Django/FastAPI), Node.js
+• Frontend: React, Vue.js, TypeScript
+• Databases: PostgreSQL, MongoDB
+• Cloud: AWS (Lambda, EC2, S3, RDS)
+• DevOps: Docker, Kubernetes, GitHub Actions, GitLab CI
+• Monitoring: DataDog, Prometheus
+
+BENEFITS & PERKS
+• Competitive salary and equity
+• Health, dental, and vision insurance
+• 401(k) matching
+• Unlimited PTO
+• Professional development budget
+• Remote-first company with flexible hours
+• Quarterly team offsites
+
+WHAT YOU'LL GET
+• Work on cutting-edge technology
+• Direct impact on product and company strategy
+• Collaborative and inclusive team environment
+• Opportunity to grow into a principal engineer role
